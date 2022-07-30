@@ -1,0 +1,10 @@
+Elaborar um programa de computador que efetue a leitura de quatro valores inteeiros (variáveis A, B, C e D). Ao final o programa deve apresentar o reusltado do produto (variável P) Do primeiro com o terceiro valor, e o resultado da soma (variável S) do segundo com o quarto valor.
+
+1 - Informe o valor de A
+2 - Informe o valor de B
+3 - Informe o valor de C
+4 - Informe o valor de d
+5 - P <- A*C
+6 - S <- B+D
+7 - Produto AC
+8 - Soma BD

@@ -1,0 +1,6 @@
+Ler o valor correspondente ao salário mensal (variável SM) de um trabalhador e também o valor do percentual de reajuste (variável PR) a ser atribuído. Apresentar o valor do novo slário (variável NS).
+
+1 - Informe o valor do salário mensal (SM)
+2 - Informe o valor do percentual de reajuste (PR)
+3 - SM <- SM*PR/100
+4 - Novo Salário (NS)

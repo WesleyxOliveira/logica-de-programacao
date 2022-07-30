@@ -1,0 +1,5 @@
+Efetuar o cálculo e a apresentação do valor de uma prestação em atraso, utilizando a formula: Prestação <- VALOR + (VALOR*TAXA/100)*TEMPO).
+
+1 - Ler, tempo de atraso da prestação
+2 - Efetuar o calculo de juros com a fórmula Prestação <- VALOR + (VALOR*TAXA/100)*TEMPO). 
+3- Apresentar o resultado na tela.

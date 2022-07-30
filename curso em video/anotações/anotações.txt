@@ -1,0 +1,262 @@
+Algoritmo: conjunto de regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema por meio de um número finito de etapas. Quando um programa não funciona corretamente, houve algum problema na estruturação do algoritmo.
+
+Algoritimos computacionais
+
+São passos a serem seguidos por um (módulo processador) e seus respectivos usuários que, quando executados na ordem correta, conseguem (realizar) determinada tarefa.
+
+
+
+portugol
+
+Portugol não é uma linguagem de programação, é apenas uma maneira de representar a sua lógica de programação antes de passar para uma linguagem de programação.
+
+
+
+
+identificadores
+
+1. Deve começar com uma letra
+2. Os próximos podem ser letras ou números
+3. não pode utilizar nenhum símbolo. excetro _
+4. não pode conter espaços em branco
+5. não pode conter letras com acentos
+6. não pode ser uma palavra reservada 
+
+exemplos:
+
+Nota1 - ok
+Média - x
+Salário Bruto - x
+algoritmo - x
+9vidade - x
+Inicio_algoritimo - ok
+
+Tipo Primitivo
+
+Inteiro 	ex: 1, 3, -5, 198, 0
+Real		ex: 0.5, 5.0, 9.8, -77.3, 3.1415
+Caractere	ex: "Gystavo", "Algoritimo", "123". Tudo aquilo colocado entre aspas.
+Logico		ex: verdadeiro, falso
+
+
+
+
+
+algoritmo "primeiro"
+// Função :
+// Autor :
+// Data : 08/09/2021
+// Seção de Declarações 
+var
+msg: caractere
+inicio
+      msg <-"Olá, Mundo!"
+      Escreva ("Mensagem ", msg)
+fimalgoritmo
+
+
+
+
+
+
+
+
+operadores aritimeticos
+
++ - adição
+- - subtração
+* - multiplicação
+/ - divisão
+\ - divisão inteira
+^ - exponenciação
+% - módulo
+
+orderm de precedencia
+
+() primeiro o que estiver entre parenteses
+ ^ - depois exponenciação
+*/ - multiplicação e divisão
++ - adição e subtração
+
+funções aritméticas
+
+Abs - Valor absoluto
+Exp - Exponenciação
+int - Valor Inteiro
+RaizQ - Raiz Quadrada
+Pi - Retorna Pi
+Sen - Seno (rad)
+cos - Cosseno (rad)
+Tan - Tangente (rad)
+GraupRad - Graus para Rad
+
+
+
+
+
+
+
+Operadores Relacionais
+
+> - maior que
+< - menor que
+>= - maior ou igual a
+<= - menor ou igual a
+= - igual a
+<> - diferente de
+
+
+
+
+Operadores lógicos
+
+P Q PEQ       p q  p ou q
+
+v v v 	      v	v  v
+v f f         v f  v
+f v f         f v  v
+f f f         f f  f
+
+P  NÃO-P
+V  F
+
+orderm de precedência
+
+Aritméticos ()
+	     ^
+	     */
+	     +-
+
+relacionais - todos
+
+lógicos E
+	OU
+	NÃO
+
+
+
+
+
+
+Escolha caso
+
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 19/09/2021
+// Seção de Declarações 
+var
+   D: inteiro
+   Valor : real
+inicio
+      Escreval ("-------------------------")
+      Escreval ("    CRIANÇA ESPERANÇA    ")
+      Escreval ("-------------------------")
+      Escreval ("Muito obrigado por ajudar")
+      Escreval (" [1] para doar R$10 ")
+      Escreval (" [2] para doar R$25 ")
+      Escreval (" [3] para doar R$50 ")
+      Escreval (" [4] para doar outros valores ")
+      Escreval (" [5] para cancelar ")
+      Leia (D)
+      Escolha D
+         Caso 1
+              Valor <- 10
+         Caso 2
+              Valor <- 25
+         Caso 3
+              Valor <- 50
+         Caso 4
+              Escreva ("Qual o valor da doação? R$")
+              Leia (Valor)
+         Caso 5
+              Valor <- 0
+      FimEscolha
+      Escreval ("-----------------------")
+      Escreval ("SUA DOAÇÃO FOI DE R$", Valor:4:2)
+      Escreval ("MUITO OBRIGADO!")
+      Escreval ("-----------------------")
+fimalgoritmo
+
+
+A estrutura escolha não serve para testar faixa de valores
+como por exemplo >=, <=, e ela só funciona para valores inteiros.
+
+
+
+Enquanto, FimEnquanto:
+
+Enquanto (expressão) faca
+	bloco
+FimEnquanto
+
+
+Exemplo:
+
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 27/09/2021
+// Seção de Declarações 
+var
+   Valor, Contador: inteiro
+inicio
+      Contador <- 0
+      Escreva ("Informe até onde você quer que o programa conte: ")
+      Leia (Valor)
+      Enquanto (Contador <= Valor ) faca
+               Escreval (Contador)
+               Contador <- Contador + 1
+      FimEnquanto
+      Escreva ("FIM DA CONTAGEM")
+fimalgoritmo
+
+
+
+
+
+Estrutura Repita, Até
+
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 12/10/2021
+// Seção de Declarações 
+var
+   Contador, N, Soma: inteiro
+inicio
+      Contador <-1
+      Soma <- 0
+      Repita
+            Escreva ("Digite um número: ")
+            Leia (N)
+            Soma <- Soma+N
+            Contador <- Contador +1
+      Ate (Contador > 5)
+      Escreva ("A SOMA DOS NÚMEROS DIGITADOS É: ", Soma)
+fimalgoritmo
+
+
+
+
+Estrutura de repetição para fimpara:
+
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 28/10/2021
+// Seção de Declarações 
+var
+ C: inteiro
+inicio
+      Para C <- 1 ate 10 passo 1 faca
+           Escreval (C)
+      FimPara
+fimalgoritmo
+
+Essa estrutura serve para fazer a repetição quando eu sei onde começar e onde parar de contar ou repetir e
+não deixa com que o usuário decida quando parar de contar. Por exemplo: Deseja continuar [S/N].
+
+
+
+

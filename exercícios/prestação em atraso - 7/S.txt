@@ -1,0 +1,5 @@
+1 - Informe um número para a variável A
+2 - Informe um número para a variável B
+3 - A <- B
+4 - B <- A
+5 - Apresentar os valores na tela

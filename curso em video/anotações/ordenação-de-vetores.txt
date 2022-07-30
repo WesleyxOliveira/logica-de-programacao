@@ -1,0 +1,13 @@
+Ordenação de Vetores (Dificil pra kralho)
+
+Para fazer a ordenação de vetores, tenho que comparar todos os vetores com todos os outros que vem depois dele. 
+
+vet: vetor[1..4]
+
+vet 
+
+4 | 6| 2| 8
+
+primeiro tenho que comparar 4 com seis, depois 4 com dois, depois 4 com 8.
+6 com 2 e 6 com 8
+2 com 8

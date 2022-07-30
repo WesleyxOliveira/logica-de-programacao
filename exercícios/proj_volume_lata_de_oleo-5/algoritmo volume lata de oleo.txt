@@ -1,0 +1,6 @@
+Volume de uma lata de óleo
+
+1 - Ler raio da lata de óleo
+2 - Ler altura da lata de óleo
+3 - Fazer calculo de volume com a fórmula: volume <- pi*R^2*ALTURA
+4 - Apresentar o resultado na tela

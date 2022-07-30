@@ -1,0 +1,13 @@
+Comandos de saída visualg 
+
+1 - Escreva ("Qualquer coisa")  - obs: tudo que esta entre aspas é considerado uma mensagem.
+
+2 - Escreval ("Qualquer coisa") - Serva para escrever em outra linha.
+
+
+
+
+
+comandos de entrada visualg
+
+Leia (Qualquer coisa)

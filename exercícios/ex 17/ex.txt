@@ -1,0 +1,5 @@
+Elaborar um programa de computador que calcule e apresente o valor da área de uma circunferência (variável A). para tanto, o programa deve solicitar o valor do raio (Variável R) e fazer o uso da fórmula de cálculo: A <- 3.14159*R^2
+
+1 - Informe o valor do radio:
+2 - A <- 3.14159 * R^2
+3 - Mostrar na tela o valor da ária (R)

@@ -1,0 +1,7 @@
+vetores
+
+variável composta = que tem vários espaços
+
+homogênia - pq todos os espaços são do msm tipo
+
+unidimensional - pq para identificar cada um dos quadradinhos eu preciso apenas de um endereço.

@@ -1,0 +1,19 @@
+1 - Informe o primeiro número
+2 - Informe o segundo número
+3 - Informe o terceiro número
+4 - Informe o quarto número
+AB <- A+B
+AC <- A+C
+AD <- A+D
+BC <- B+C
+BD <- B+D
+CD <- C+D
+
+AB <- A*B
+AC <- A*C
+AD <- A*D
+BC <- B*C
+BD <- B*D
+CD <- C*D
+
+5 - informa o valor na tela

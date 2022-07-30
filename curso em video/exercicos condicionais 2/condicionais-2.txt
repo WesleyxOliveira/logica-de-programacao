@@ -1,0 +1,5 @@
+1 - Ler o nome do aluno
+2 - Ler a nota N1 e N2
+3 - Calcular a média da nota do aluno
+4 - Classificar o aproveitamento em A, B, C, D, E OU F
+5 - Mostrar na tela

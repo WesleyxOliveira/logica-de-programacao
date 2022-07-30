@@ -1,0 +1,7 @@
+M) Elaborar um programa que efetue a leitura de três valores inteiros (representados pelas variáveis A, B e C) e apresente como resultado final o valor da soma dos quadrados dos três valores lidos.
+
+1 - Informe o valor de A
+2 - Informe o valor de B
+3 - Informe o valor de C
+4 - R <- A^2 +B^2 +C^2
+5 - mostrar o resultado na tela

@@ -1,0 +1,18 @@
+B - Apresentar os resultados de uma tabuada de um número qualquer, a qual deve ser impressa no seguinte formato:
+
+Considerando como exemplo o fornecimento do número 2 para o número qualquer, ter-se-ia a seguinte situação: 
+
+2x1 = 2
+2x2 = 4
+2x4 = 8
+2x5 = 10
+2x6 = 12
+(...)
+2x10= 20
+
+Algoritmo
+
+1 - Atribuir o valor 1 a uma variável chamada Contador
+2 - Repetir o contador enquanto ele for menor ou igual a 10
+3 - Escreva ("N X", Contador, "=" R
+4 - Contador <- Contador + 1 

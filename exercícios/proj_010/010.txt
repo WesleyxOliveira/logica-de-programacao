@@ -1,0 +1,5 @@
+Efetuar a leitura de um número inteiro e apresentar o resultado do quadrado desse número.
+
+1 - Informe um número
+2 - Quadrado <- N^2
+3 - Resultado

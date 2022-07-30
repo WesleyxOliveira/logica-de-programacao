@@ -1,0 +1,7 @@
+Ler dois valores inteiros (variáveis A e B) e apresentar o resultado do quadrado da diferença do primeiro valor (variável A) pelo segundo valor (variável B).
+
+1 - Informe o primeiro número
+2 - Informe o segundo número
+3 - S <- A-B
+4 - S2 <- S^2
+5 - O resultado do resto da subtração ao quadrado é:

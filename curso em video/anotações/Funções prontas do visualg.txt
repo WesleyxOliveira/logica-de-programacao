@@ -1,0 +1,23 @@
+Funções prontas do visualg:
+
+exemplo site ("CursoEmVideo")
+
+Compr (site) --> 12  [a função Compr, mostra o cumprimento da variável]
+
+
+Copia (Site, 6,2) --> Em   [a função Copia, copia a variável, o número 6 mostra a posiçao da letra onde vai ser iniciada a copia e o número 2 mostra quantas serão copiadas.]
+
+
+Maiusc (Site) --> CURSOEMVIDEO  [a função Maiusc transforma os caractere em maiusculos]
+
+
+Minusc (Site) --> cursoemvideo [a função Minusc é o oposto da Maiusc, e transforma os caracteres em minusculos]
+
+
+Pos ("Video", Site) --> 8 [a função Pos mostra a posição de um ou mais caracteres]
+
+
+Asc ("C") --> 67 [a função Asc mostra o código Asc do caractere]
+
+
+Carac (67) --> C   [a função Carac mostra o codigo Asc do caractere]

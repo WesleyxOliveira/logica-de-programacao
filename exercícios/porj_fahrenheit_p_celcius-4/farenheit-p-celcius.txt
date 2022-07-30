@@ -1,0 +1,3 @@
+1 - Ler temperatura em Fahrenheit
+2 - Fazer calculo de conversão de Fahrenheit para Celcius
+3 - Mostrar na tela os valores em Fahrenheit e em Celcius

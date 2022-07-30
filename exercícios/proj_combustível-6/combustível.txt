@@ -1,0 +1,8 @@
+algoritmo: combústivel
+
+1 - informe o tempo gasto na viagem:
+2 - informe a velocidade média durante a viagem: 
+3 - calcule a distancia percorrida com a fórmula D <- TEMPO * VELOCIDADE.
+4 - ler distância
+5 - calcular quantidade de litros de combustível utilizada com a fórmula Litros usados <- D/12
+6 - mostrar na tela (velocidade média), (tempo gasto), (distância percorrida), (quantidade de litros utilizada)

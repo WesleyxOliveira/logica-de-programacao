@@ -1,0 +1,48 @@
+Candidatos - CA, CB, CC
+Votos - nulo, branco, validos
+
+Escreva (Votos p/ o candidato CA: )
+Escreva (Votos p/ o candidato CB: )
+Escreva (Votos p/ o candidato CC:)
+Escreva (Votos nulos (VN): )
+Escreva (Votos em brando (VB) )
+TE <- CA+CB+CC+VN+VB 
+VV <- TE-(VN+VB)
+NEB <- VN+VB
+PVNB <- (NEB*100)/TV
+PVV <- 100-PVNB
+PCA <- X=CA*100/TE
+
+
+
+
+
+CA - CANDIDATO A
+CB - CANDIDATO B
+CC - CANDIDATO C
+VN - VOTOS NULOS
+VB - VOTOS EM BRANCO
+TE - TOTAL DE ELEITORES
+VV - VOTOS VALIDOS
+PVV - PERCENTUAL DE VOTOS VÁLIDOS
+NEB - NULOS E BRANCOS
+PVNB - PERCENTUAL DE VOTOS NULOS E BRANCOS
+PCA - PERCENTUAL CANDIDATO A
+PVN - PERCENTUAL DE VOTOS NULOS
+PVB - PERCENTUAL DE VOTOS EM BRANCO
+
+
+TE=X
+VV*100
+
+700X=40000
+X=40000/700
+
+TE=100%
+CA=X
+
+TEX=CA*100
+X=CA*100/TE
+
+
+

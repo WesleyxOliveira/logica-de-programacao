@@ -1,0 +1,7 @@
+C - Apresentar o tatal da soma obtida dos cem primeiros números inteiros (1+2+3+...100)
+
+1 - Contador <-1
+2 - Enquanto o Contador <= 100 faça
+3 - Contador <- Contador + 1
+3 - SOMA <- SOMA + Contador
+4 - fim algoritmo

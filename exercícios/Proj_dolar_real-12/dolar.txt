@@ -1,0 +1,6 @@
+Elaborar um programa que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O programa deverá solicitar o valor da cotação do dólar e também a quantidade de dólares disponível com o usuário.
+
+1 - Informe a quantia em dolar
+2 - Informe a cotaçao do dólar
+3 - Reais <- Dolar*cotação
+4 - Apresentar o valor em real na tela

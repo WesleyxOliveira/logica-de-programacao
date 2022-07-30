@@ -1,0 +1,91 @@
+1 - Procedimentos de rotinas. Exemplo:
+
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 09/11/2021
+// Seção de Declarações 
+var
+   I: inteiro
+   N, Pesado: caractere
+   P ,Mai: real
+   Procedimento Topo()
+   Inicio
+      LimpaTela
+      Escreval ("-------------------------------------")
+      Escreval (" D E T E C T O R   D E   P E S A D O ")
+      Escreval (" Maior Peso ate agora: ", Mai, "Kg")
+      Escreval ("-------------------------------------")
+   FimProcedimento
+inicio
+      Topo
+      Para I <- 1 ate 5 faca
+           Escreva ("Digite o nome: ")
+           Leia (N)
+           Escreva ("Digite o peso de ", N, ": ")
+           Leia (P)
+           Se (P > Mai) entao
+              Mai <- P
+              Pesado <- N
+           FimSe
+           Topo ()
+      FimPara
+      Topo ()
+      Escreval ("A pessoa mais pesada foi ", Pesado, ", com", Mai, " quilos " )
+      
+fimalgoritmo
+
+
+
+
+2- PASSAGEM DE PARÂMETRO POR VALOR
+
+var
+   N1, N2: inteiro
+Procedimento Rotina (A, B: inteiro)  <- A e B são parametros
+Inicio
+         Escreval (" O valor de A é ", A)
+         Escreval (" O valor de B é ", B)
+FimProcedimento
+inicio
+      Escreva ("Digite um número: ")
+      Leia (N1)
+      Escreva ("Digite outro número: ")
+      Leia (N2)
+      Rotina (N1, N2) <- N1 e N2 são passados para os parâmetros A e B
+fimalgoritmo
+
+
+OBS: no exemplo acima, como a passagem foi por valor, então N1 e N2 não serão modificados no caso de haver uma modificação nos valores de A e B.
+
+
+
+
+3 - PASSAGEM DE PARÂMETRO POR REFERÊNCIA
+
+var
+   X, Y: inteiro
+Procedimento Soma (var A, B: inteiro)
+Inicio
+      A <- A + 1
+      B <- B + 2
+      Escreval ("Valor de A = ", A)
+      Escreval ("Valor de B = ", B)
+      Escreval ("Soma A + B = ", A + B)
+FimProcedimento
+inicio
+      X <- 4
+      Y <- 8
+      Soma (X, Y)
+      Escreval ("Valor de X = ", X)
+      Escreval ("Valor de Y = ", Y)
+fimalgoritmo
+
+
+OBS: nesse exemplo, foi passada a referência de X e Y para os parâmetros A e B, como foi acrescentado +1 ao A e ao B, os valores X e Y também receberão esse acrescimo.
+
+
+
+4 - Tipos de escopos
+
+Local e Global
